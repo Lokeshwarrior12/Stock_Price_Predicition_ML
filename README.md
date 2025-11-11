@@ -26,15 +26,14 @@ pip install -r requirements.txt
 ## Run the App
 🖥️ Option 1 (Recommended — Python 3.13)
 py -3.13 -m streamlit run app.py
+
+run all the files, like this.
+python -m src.model.hybrid_ensemble
 python -m src.model.train_xgb_model
 .
 .
 .
 
-
-run all the files, like this.
-python -m src.model.hybrid_ensemble
-python -m src.model
 
 ## ⚙️ Configuration
 Edit the config file at:
